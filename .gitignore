@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.pem
+
+# Machine Learning Large Model Files (GitHub 100MB se badi files block kar deta hai)
+*.h5
+*.hdf5
+*.pkl
+*.onnx
+*.pb
+*.tflite
+*.pt
+*.pth
+
+# Streamlit Local Configuration & Cache
+.streamlit/secrets.toml
+
+# IDE / Code Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
